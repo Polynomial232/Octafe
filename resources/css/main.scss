@@ -1,0 +1,26 @@
+$green: #16A34A;
+
+.nice-number {
+    display: inline-flex;
+    justify-content: stretch;
+
+    input {
+        vertical-align: middle;
+        -moz-appearance: textfield;
+        box-sizing: content-box;
+        margin: 0;
+        text-align: center;
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    button {
+        border: 2px solid $green;
+        border-radius: 50%;
+        width: 1.4em;
+    }
+}
