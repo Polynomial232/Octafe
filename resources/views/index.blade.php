@@ -14,12 +14,12 @@
         integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous">
     </script>
     <script src="js/jquery.nice-number.min.js"></script>
-    <title>Document</title>
+    <title>Menu</title>
 </head>
 
 <body>
-    <section class="relative mt-10">
-        <div class="container-lg grid grid-rows lg:grid-cols-3">
+    <section class="relative">
+        {{-- <div class="container-lg grid grid-rows lg:grid-cols-3">
             <div class="grid grid-rows py-5 px-4 m-4 rounded-3xl border-2 border-dashed">
                 <div id="atas-card" class="grid grid-cols-3">
                     <div class="lg:col-start-1 lg:col-span-2 col-span-2 md:col-span-1 pr-1 pl-3 lg:order-1 md:order-2">
@@ -50,8 +50,9 @@
                     </form>
                 </div>
             </div>
-        </div>
+        </div> --}}
     </section>
+
     <script src="js/nice-number.js"></script>
 </body>
 
